@@ -78,4 +78,37 @@
     *   Consequência do Atraso: Se uma devolução for registrada com atraso, o status do usuário que devolveu o livro deve ser alterado para "Bloqueado", até que sua situação seja regularizada pela equipe da biblioteca.
     *   Gestão de Multas: O sistema irá identificar e registrar o atraso, além de bloquear o usuário. No entanto, conforme o escopo do projeto, a gestão financeira cálculo de valor, pagamento de multas não será implementada. A regularização do status do usuário desbloqueio será uma ação manual da equipe da biblioteca.
 
-    
+    ## Casos de uso
+
+### Caso de Uso 01: Consultar Disponibilidade de Livro
+
+*   **Ator Principal:** Leitor qualquer usuário, mesmo não logado
+*   **Resumo:** O Leitor busca por um livro no sistema para verificar se ele faz parte do acervo e se há exemplares disponíveis para empréstimo.
+*   **Pré-condições:** O Leitor deve ter acesso à aplicação web.
+*   **Fluxo Principal:**
+    1.  O Leitor acessa a funcionalidade de busca.
+    2.  O Leitor informa os dados de pesquisa título, autor, etc..
+    3.  O Sistema exibe uma lista de livros que correspondem à pesquisa.
+    4.  O Leitor seleciona um livro da lista.
+    5.  O Sistema exibe a página de detalhes do livro, mostrando a sinopse, o autor e o status de disponibilidade ex: "Disponível", "Todos Emprestados".
+*   **Pós-condições:** O Leitor é informado sobre a existência e a disponibilidade do livro no acervo.
+*   **Fluxos Alternativos:**
+    *   **Livro não encontrado:** Se a busca não retornar resultados, o Sistema exibe uma mensagem "Nenhum livro encontrado para o termo pesquisado".
+
+### Caso de Uso 02: Cadastrar Novo Livro no Acervo
+
+*   **Ator Principal:** Gestor Bibliotecário
+*   **Resumo:** O Gestor adiciona um novo título de livro ao catálogo do sistema, incluindo seus dados e a quantidade de exemplares.
+*   **Pré-condições:** O Gestor deve estar autenticado no painel administrativo.
+*   **Fluxo Principal:**
+    1.  O Gestor acessa a função "Adicionar Novo Livro".
+    2.  O Gestor informa o ISBN do livro.
+    3.  O Sistema busca os dados do livro título, autor, editora em uma base de dados externa e preenche os campos automaticamente.
+    4.  O Gestor preenche ou confirma os dados do livro e informa a quantidade de exemplares a serem adicionados.
+    5.  O Gestor salva o formulário.
+    6.  O Sistema cria o registro do livro e os registros dos novos exemplares, todos com status "Disponível".
+    7.  O Sistema exibe uma mensagem de sucesso.
+*   **Pós-condições:** O novo livro e seus exemplares estão disponíveis no catálogo para consulta e empréstimo.
+*   **Fluxos Alternativos:**
+    *   **ISBN não encontrado:** Se o Sistema não encontrar os dados do livro, o Gestor deverá preencher todos os campos manualmente.
+    *   **Livro já existe:** Se o ISBN informado já estiver cadastrado, o Sistema informa o Gestor e pergunta se ele deseja apenas adicionar novos exemplares ao registro existente.
