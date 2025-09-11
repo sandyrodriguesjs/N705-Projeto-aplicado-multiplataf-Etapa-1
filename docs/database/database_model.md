@@ -4,6 +4,9 @@
 
 ![Modelo de Dados](database_model.png)
 
+
+```dbml
+
 Table usuarios {
   id_usuario integer [primary key, increment]
   nome_completo varchar
