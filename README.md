@@ -26,6 +26,7 @@ Na primeira etapa do projeto inclui na perspectiva do Frontend a aplicação web
 ## Visão geral da arquitetura
 
 Backend: Será uma aplicação monolítica construída em Node.js com TypeScript. Ele centralizará toda a lógica de negócio, regras e acesso ao banco de dados.
+
 Frontend: Será uma Single Page Application (SPA) desenvolvida em React com TypeScript, responsável por toda a interface e experiência do usuário.
 Comunicação: A conexão entre o frontend e o backend será feita exclusivamente através de uma API REST.
 
@@ -48,9 +49,9 @@ O sistema é construído com Node.js/TypeScript API REST no backend e React/Type
 
 ## Integrantes da equipe e responsabilidades
 
-Antonio Mikael Vasconcelos Aguiar (2326335) - 
-Sandy Rodrigues do Nascimento (2326334) - 
-Vitória de Oliveira Almeida (2325332) - 
-Renato (    ) - 
+Antonio Mikael Vasconcelos Aguiar (2326335) - <br>
+Sandy Rodrigues do Nascimento (2326334) - <br>
+Vitória de Oliveira Almeida (2325332) - <br>
+Renato (    ) - <br>
 
 
