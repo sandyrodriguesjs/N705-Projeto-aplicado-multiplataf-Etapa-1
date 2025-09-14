@@ -39,8 +39,6 @@ A arquitetura do sistema BiblioConecta é dividida em duas camadas principais: u
 
 ### Diagrama de Arquitetura
 
-![Arquitetura do Sistema](Arquitetura.png)
-
 
 ### Decisões Técnicas e Justificativas
 
