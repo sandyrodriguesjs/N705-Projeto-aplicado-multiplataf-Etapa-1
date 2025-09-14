@@ -47,7 +47,7 @@ A arquitetura do sistema **BiblioConecta** é dividida em duas camadas principai
 ---
 
 ## Diagrama de Arquitetura  
-<img src="./architecture/architecture.png" alt="Diagrama de Arquitetura" width="300">
+<img src="./architecture.png" alt="Diagrama de Arquitetura" width="300">
 
 
 ---
