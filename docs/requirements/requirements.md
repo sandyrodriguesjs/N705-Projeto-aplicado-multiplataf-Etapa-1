@@ -1,4 +1,4 @@
-## REQUISITOS FUNCIONAIS:
+## Requisitos Funcionais (RF):
 
 *   **Consulta ao Catálogo:** O usuário deve poder buscar livros no acervo a partir de qualquer dispositivo, usando filtros como título, autor ou assunto.
 
@@ -16,7 +16,7 @@
 
 *   **Gestão de Usuários:** A equipe deve poder cadastrar novos leitores, consultar informações e visualizar o histórico de empréstimos de cada usuário.
 
-## REQUISITOS NÃO FUNCIONAIS:
+## Requisitos não-funcionais (RNF):
 
 *   **Usabilidade:** A interface do sistema deve ser intuitiva e clara, tanto para os leitores quanto para a equipe. O objetivo é que qualquer pessoa consiga usar as principais funções com o mínimo de treinamento.
 
