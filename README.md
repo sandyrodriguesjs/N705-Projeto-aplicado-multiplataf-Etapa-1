@@ -29,7 +29,7 @@ Backend: Será uma aplicação monolítica construída em Node.js com TypeScript
 Frontend: Será uma Single Page Application (SPA) desenvolvida em React com TypeScript, responsável por toda a interface e experiência do usuário.
 Comunicação: A conexão entre o frontend e o backend será feita exclusivamente através de uma API REST.
 
-![Diagrama de Arquitetura](./docs/architecture/arquitetura.png)
+![Arquitetura do Sistema](./docs/architecture/Arquitetura.png)
 
 
 ## Tecnologias propostas
