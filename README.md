@@ -55,7 +55,7 @@ Principais dificuldades enfrentadas pelos usuários:
 - **Frontend:** SPA em React com TypeScript, responsável pela interface e experiência do usuário.  
 - **Comunicação:** Exclusivamente via API REST entre frontend e backend.  
 
-<img src="./docs/architecture/architecture.png" alt="Diagrama de Arquitetura" width="600">
+<img src="./docs/architecture/architecture.png" alt="Diagrama de Arquitetura" width="200">
 
 ---
 
