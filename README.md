@@ -84,10 +84,10 @@ Principais dificuldades enfrentadas pelos usuários:
 
 | Nome | Matrícula | Papel/Responsabilidade |
 |------|-----------|----------------------|
-| Alisson (inserir matrícula) | (inserir) | Arquitetura / Integração |
+| Alisson Braga Martins | 2323822 | Arquitetura / Integração |
 | Antonio Mikael Vasconcelos Aguiar | 2326335 | Backend |
-| Rafael (inserir matrícula) | (inserir) | Designer |
-| Renato (inserir matrícula) | (inserir) | Backend |
+| Raphael Rodrigues de Sousa | 2323786 | Designer |
+| Renato Alexandre Alves | 2318140 | Backend |
 | Sandy Rodrigues do Nascimento | 2326334 | Product Owner |
 | Vitória de Oliveira Almeida | 2325332 | Designer |
 
