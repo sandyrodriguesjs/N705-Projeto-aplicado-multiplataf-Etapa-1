@@ -112,3 +112,51 @@
 *   **Fluxos Alternativos:**
     *   **ISBN não encontrado:** Se o Sistema não encontrar os dados do livro, o Gestor deverá preencher todos os campos manualmente.
     *   **Livro já existe:** Se o ISBN informado já estiver cadastrado, o Sistema informa o Gestor e pergunta se ele deseja apenas adicionar novos exemplares ao registro existente.
+
+    ## Perfis de Usuário
+
+### 1. Leitor (Usuário Comum)
+**Descrição:** Usuário cadastrado na plataforma para consultar o acervo e realizar empréstimos.
+
+**Permissões e Ações:**
+- Consultar o catálogo de livros (título, autor, assunto).
+- Verificar disponibilidade de exemplares.
+- Reservar livros que estejam emprestados.
+- Solicitar empréstimos de livros disponíveis.
+- Renovar empréstimos, respeitando as regras de renovação.
+- Consultar histórico de empréstimos e reservas.
+- Receber notificações sobre disponibilidade de reservas e prazos de devolução.
+
+**Restrições:**
+- Limite de 3 livros emprestados simultaneamente.
+- Limite de 2 reservas ativas simultaneamente.
+- Usuários com status "Bloqueado" não podem realizar novos empréstimos ou reservas até regularizar a situação.
+
+---
+
+### 2. Gestor Bibliotecário (Administrador)
+**Descrição:** Usuário responsável pela gestão da biblioteca e administração do sistema.
+
+**Permissões e Ações:**
+- Adicionar, editar e remover livros e exemplares do acervo.
+- Consultar e gerenciar informações de usuários cadastrados.
+- Alterar o status de usuários (Ativo/Bloqueado).
+- Visualizar histórico de empréstimos e reservas de todos os usuários.
+- Gerenciar filas de reserva e notificações aos usuários.
+- Acessar painel de controle centralizado com relatórios de operações da biblioteca.
+
+**Restrições:**
+- Nenhuma restrição funcional relevante; possui acesso total ao sistema administrativo.
+
+---
+
+### 3. Visitante (Usuário Não Cadastrado)
+**Descrição:** Usuário que acessa o sistema sem estar cadastrado.
+
+**Permissões e Ações:**
+- Consultar o catálogo de livros e verificar disponibilidade de exemplares.
+
+**Restrições:**
+- Não pode realizar reservas, empréstimos ou renovação de livros.
+- Não possui histórico ou área pessoal.
+
